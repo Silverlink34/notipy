@@ -1,0 +1,5 @@
+pyrate-limiter
+schedule
+python-dotenv
+win10toast
+redis

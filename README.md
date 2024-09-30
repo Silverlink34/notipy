@@ -28,6 +28,10 @@ Click the **+ Add Custom Template** button.
 ### 4. Configure the Redis Timeseries Template
 Fill out the **Title** field and **Description** fields.
 
+(Optional) if you want to be official, you can use this image url in the **Logo** field to have the template use Redis's official app image:
+> https://avatars.githubusercontent.com/u/1529926?s=200&v=4
+
+
 ![portainer1](img/portainer4.PNG)
 
 Copy / Paste the below **Custom Template** code and paste it into the large **Web editor** field on the **Create Custom template** page.
@@ -58,3 +62,10 @@ volumes:
 ![portainer1](img/portainer5.PNG)
 
 After pasting in, click the **Create Custom Template** button.
+
+### 5. Deploy the Redis Template
+Click on the Redis template under Custom templates. Doing so will select it, and it will appear at the top of the Custom Templates page as the actively selected template.
+Click **Deploy The Stack**.
+Redis should be up and running now!
+
+![portainer1](img/portainer6.PNG)

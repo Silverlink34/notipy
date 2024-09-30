@@ -10,9 +10,31 @@ This guide will help you get a new Redis Timeseries server up and running, or if
 ## Setting up Redis on Portainer
 This guide assumes you have Docker already, and will not explain how to setup Docker. We will use Portainer in this guide, but you can always simply use the docker-compose.yml format below instead if you don't wish to use Portainer and know what you are doing.
 
-!(img/portainer1.png)
+### 1. Log into your Portainer interface
+Click **Live Connect** to connect to your Docker environment, if not connected already.
 
-Custom Template Code: (aka the docker-compose.yml)
+![portainer1](img/portainer1.PNG)
+
+### 2. Navigate to Custom Templates
+Expand **Templates**, then click **Custom**.
+
+![portainer1](img/portainer2.PNG)
+
+### 3. Create a new Custom Template
+Click the **+ Add Custom Template** button.
+
+![portainer1](img/portainer3.PNG)
+
+### 4. Configure the Redis Timeseries Template
+Fill out the **Title** field and **Description** fields.
+
+![portainer1](img/portainer4.PNG)
+
+### 5. Paste in the Redis Timeserver template code and Save
+Copy / Paste the below **Custom Template** code and paste it into the large **Web editor** field on the **Create Custom template** page.
+After pasting in, click the **Create Custom Template** button.
+
+**Custom Template Code:** (aka the **docker-compose.yml**)
 ```
 services:
   redistimeseries:
@@ -31,3 +53,5 @@ volumes:
   redis-data:
   redis-config:
 ```
+
+![portainer1](img/portainer5.PNG)

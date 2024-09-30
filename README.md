@@ -30,11 +30,10 @@ Fill out the **Title** field and **Description** fields.
 
 ![portainer1](img/portainer4.PNG)
 
-### 5. Paste in the Redis Timeserver template code and Save
 Copy / Paste the below **Custom Template** code and paste it into the large **Web editor** field on the **Create Custom template** page.
-After pasting in, click the **Create Custom Template** button.
 
 **Custom Template Code:** (aka the **docker-compose.yml**)
+
 ```
 services:
   redistimeseries:
@@ -54,4 +53,8 @@ volumes:
   redis-config:
 ```
 
+**Web Editor** field filled out:
+
 ![portainer1](img/portainer5.PNG)
+
+After pasting in, click the **Create Custom Template** button.

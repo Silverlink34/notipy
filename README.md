@@ -65,7 +65,17 @@ After pasting in, click the **Create Custom Template** button.
 
 ### 5. Deploy the Redis Template
 Click on the Redis template under Custom templates. Doing so will select it, and it will appear at the top of the Custom Templates page as the actively selected template.
+
+![portainer1](img/portainer6.PNG)
+
 Click **Deploy The Stack**.
 Redis should be up and running now!
 
-![portainer1](img/portainer6.PNG)
+### 6. Setup notipy.py's .env file
+- need to fill out this section still
+
+### 7. Run notipy.py to download data
+- need to fill out this section still
+
+### 8. (Optional) Setup Grafana to display the data in cool graphs
+- need to fill out this section still

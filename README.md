@@ -124,13 +124,20 @@ REDIS_TS_PORT=6380
 SQLITE_FILE_PATH=
 ```
 
+Open a command window inside of the cloned/downloaded repository, and install Python dependencies:
+```
+pip install -r requirements.txt
+```
+Keep the command window open for next step.
 
 ### 7. Run notipy.py to download data
 You can now finally run notipy.py!!!
+Assuming you still have the command window open inside of the notipy repo folder, you can now start notipy:
 ```
 python notipy.py
 ```
-If a valid redis server is found, you should start seeing output in the commandline like so:
+If a valid redis server is found, you should start seeing output in the commandline like the below example.
+If you see absolutely nothing, then there was most likely an issue connecting to the redis server.
 (both news and weather api used in example output)
 ```
 c:\Users\brand\source\notipy>python notipy.py

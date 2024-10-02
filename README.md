@@ -236,4 +236,4 @@ Done posting news articles to redis server. 10-02-2024 06:31:26:171181 AM
 Data should now be storing to your redis server to be displayed/used somewhere!!!
 
 ### 8. (Optional) Setup Grafana to display the data in cool graphs
-- need to fill out this section still
+Go back into Portainer, and this time instead of choosing Custom templates, we will search for a pre-made template for Grafana.
